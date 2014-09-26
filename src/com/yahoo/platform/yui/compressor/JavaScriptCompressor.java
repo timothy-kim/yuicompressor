@@ -8,7 +8,7 @@
  */
 package com.yahoo.platform.yui.compressor;
 
-import org.mozilla.javascript.*;
+import com.yahoo.platform.yui.compressor.org.mozilla.javascript.*;
 
 import java.io.IOException;
 import java.io.Reader;

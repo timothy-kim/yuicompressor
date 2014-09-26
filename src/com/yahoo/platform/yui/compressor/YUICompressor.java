@@ -9,8 +9,8 @@
 package com.yahoo.platform.yui.compressor;
 
 import jargs.gnu.CmdLineParser;
-import org.mozilla.javascript.ErrorReporter;
-import org.mozilla.javascript.EvaluatorException;
+import com.yahoo.platform.yui.compressor.org.mozilla.javascript.ErrorReporter;
+import com.yahoo.platform.yui.compressor.org.mozilla.javascript.EvaluatorException;
 
 import java.io.*;
 import java.nio.charset.Charset;
