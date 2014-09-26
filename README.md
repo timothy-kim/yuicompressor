@@ -1,3 +1,10 @@
+This is a fork of yui/yuicompressor to address the bug detailed [here](http://stackoverflow.com/q/6652550/108320) and [here](http://yuilibrary.com/projects/yuicompressor/ticket/2528114).
+
+Core of the problem is that yuicompressor leverages on a modified version of [Rhino](https://github.com/mozilla/rhino) but keeps the leaves the namespace the same. So if you have a project that depends on yuicompressor AND Rhino, you are going to have collision.
+
+The fix is to embed the entire Rhino library into the project and change the namespace so that it no longer conflicts with any other packages that depend on Rhino.
+
+
 YUI Compressor - The Yahoo! JavaScript and CSS Compressor
 =========================================================
 
