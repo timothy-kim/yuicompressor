@@ -4,6 +4,8 @@ Core of the problem is that yuicompressor leverages on a modified version of [Rh
 
 The fix is to embed the entire Rhino library into the project and change the namespace so that it no longer conflicts with any other packages that depend on Rhino.
 
+This issue has been filed here: https://github.com/yui/yuicompressor/issues/161
+
 
 YUI Compressor - The Yahoo! JavaScript and CSS Compressor
 =========================================================
